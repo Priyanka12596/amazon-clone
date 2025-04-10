@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style>
+        #loader{
+            height: 200px;
+            width: 200px;
+            border: 20px solid red;
+            border-top: 20px solid black;
+            background-color: yellow;
+            border-radius: 50%;
+            animation: loaderdiv 1s ease-in 0s infinite normal;
+        }
+        @keyframes loaderdiv{
+            from{
+                transform: rotate(0deg);
+                background-color: yellow;
+            }
+            to{
+                transform: rotate(360deg);
+                background-color: red;
+            }
+        }
+     </style>
+    
+</head>
+<body>
+    <div id="loader"></div>
+    
+</body>
+</html>

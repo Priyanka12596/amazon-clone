@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    div{
+      position: absolute;
+      top: 100px;
+      left: 100px;
+        height: 100px;
+        width: 100px;
+        background-color: aqua;
+        border: 2px solid black;
+     animation-name:multicolor ;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+   
+       
+        
+      }
+      @keyframes multicolor{
+        from{left: 0px;
+        background-color: aqua;
+      }
+        to{left: 400px;
+        background-color: brown;}
+      }
+      /* div:hover{
+        background-color: brown;
+        font-size: 20px;
+        transform:skew(100deg);
+      }
+      div:active{
+       background-color: blue;
+      } */
+    
+  </style>
+    
+</head>
+<body>
+    <div>content</div>
+</body>
+</html>

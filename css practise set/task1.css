@@ -1,0 +1,46 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#div1{
+    
+        display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+}
+#p1{
+    font-size: 30px;
+    
+}
+p{
+    color: white;
+}
+#label{
+    width: 400px;
+    height: 30px;
+}
+#button1{
+    width: 60px;
+    height: 30px;
+    margin-right: 90px;
+    background-color: orange;
+    
+}
+#contentbox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#container{
+    height: 600px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}

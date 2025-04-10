@@ -1,0 +1,33 @@
+
+
+#div1{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+@media (width:200px){
+    #div1{
+        background-color:green;
+    }
+}
+@media (min-width:300px) and (max-width:400px){
+    #div1{
+        background-color:magenta;
+    }
+}
+@media (min-width:400px) and (max-width:600px){
+    #div1{
+        background-color:purple;
+    }
+}
+@media (min-width:500px) and (max-width:600px){
+    #div1{
+       font-size: xx-large;
+    }
+}
+@media (min-width:600px){
+    #div1{
+        background-color:blue;
+    }
+}

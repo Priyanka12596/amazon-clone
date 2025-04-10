@@ -1,0 +1,9 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.ZaSf7GzYb3lmQzzGwXNG4gHaEK&pid=Api&P=0&h=220);
+    background-size: cover;
+    position: fixed;
+    right: 0px;
+    top: 50px;
+}
